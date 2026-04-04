@@ -44,7 +44,7 @@ AI Sentiment Analyser automates the process of extracting emotional tone from te
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ai-sentiment-analyser/
 ├── data/
 │   ├── raw/                    # Raw input data (CSV, JSON, etc.)
@@ -106,7 +106,7 @@ ai-sentiment-analyser/
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit `config.py` to customise thresholds and database settings:
 ```python
@@ -124,7 +124,7 @@ TEXT_COLUMN = "review_text"       # Column name containing the text to analyse
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Analyse a CSV file
 ```bash
@@ -186,7 +186,7 @@ sqlite3 db/sentiment.db "SELECT label, COUNT(*) FROM sentiment_results GROUP BY 
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 The included `.pbix` file provides a ready-to-use dashboard with the following visuals:
 
@@ -217,7 +217,7 @@ Tests cover core analyser output validation, database read/write operations, and
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Version | Purpose |
 |---|---|---|
