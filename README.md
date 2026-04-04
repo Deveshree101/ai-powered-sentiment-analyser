@@ -11,9 +11,9 @@ Takes text data like reviews, feedback, or social media posts, analyses the sent
 
 ## Tech Stack
 
-- **VADER Sentiment** — scores each text as positive, negative, or neutral without any model training
-- **SQLite** — stores all the sentiment results in a local database
-- **Power BI** — connects to the SQLite database and displays interactive charts and dashboards
+- **VADER Sentiment** - scores each text as positive, negative, or neutral without any model training
+- **SQLite** - stores all the sentiment results in a local database
+- **Power BI** - connects to the SQLite database and displays interactive charts and dashboards
 
 ## How It Works
 
