@@ -49,8 +49,3 @@ The dashboard includes:
 2. Open the `.pbix` file in Power BI Desktop
 3. Update the data source path to your `sentiment.db` file
 4. Refresh the data
-
-## License
-
-MIT
-
